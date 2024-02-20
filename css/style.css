@@ -2,3 +2,7 @@ body {
   height: 100vh;
   background: brown;
 }
+
+p {
+  padding: 50px 100px;
+}
