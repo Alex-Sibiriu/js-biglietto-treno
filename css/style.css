@@ -1,8 +1,15 @@
 body {
   height: 100vh;
-  background: brown;
+  background: linear-gradient(to bottom right, brown, rgb(62, 17, 17));
+}
+
+h1 {
+  font-size: 10rem;
 }
 
 p {
   padding: 50px 100px;
+  border: 10px outset black;
+  background: linear-gradient(to bottom right, rgb(40, 40, 40) 50%, rgb(15, 15, 15) 50%);
+  color: whitesmoke;
 }

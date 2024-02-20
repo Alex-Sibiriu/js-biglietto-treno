@@ -1,5 +1,5 @@
 const ageUser = parseInt(prompt('Inserisci la tua età'));
-const kmTravel = parseInt(prompt('Inserisci i chilometri da percorrere'));
+const kmTravel = parseFloat(prompt('Inserisci i chilometri da percorrere'));
 const priceKm = 0.21;
 let ticketPrice = kmTravel * priceKm;
 const adultAge = 18;
